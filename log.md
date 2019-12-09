@@ -3,7 +3,8 @@
 ### Day 1: 9th December, 2019
 
 **Today's Progress**: I fixed an issue with the React Datepicker displaying behind the edges of it's parent component.
-React Datepicker has 
+
+React Datepicker has an option to pass in a portal component to keep the date picker outside of the restricting element in the HTML. Therefore, removing the overflow restriction.
 
 **Thoughts:** Interesting fact: `The computed values of ‘overflow-x’ and ‘overflow-y’ are the same as their specified values, except that some combinations with ‘visible’ are not possible: if one is specified as ‘visible’ and the other is ‘scroll’ or ‘auto’, then ‘visible’ is set to ‘auto’.`
 Basically, this:
